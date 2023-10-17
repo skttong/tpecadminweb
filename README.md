@@ -1,4 +1,4 @@
-# laravel10multiauth
+# laravelmultiauth
 
 ## Getting started
 
