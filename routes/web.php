@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DropdownController;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -85,7 +86,10 @@ Route::get('/delete_school/{id}', [App\Http\Controllers\backend\SchoolController
 
 
 Route::get('user_list', [App\Http\Controllers\backend\UsermanagementController::class,'UserList'])->name('user.index');
-//Route::get('/add_user', [App\Http\Controllers\backend\UsermanagementController::class,'UserAdd'])->name('useradd');
+Route::get('/add_user', [App\Http\Controllers\backend\UsermanagementController::class,'UserAdd'])->name('useradd');
 Route::get('/edit_user/{id}', [App\Http\Controllers\backend\UsermanagementController::class,'UserEdit']);
 Route::post('/update_user/{id}', [App\Http\Controllers\backend\UsermanagementController::class,'UserUpdate']);
 Route::get('/delete_user/{id}', [App\Http\Controllers\backend\UsermanagementController::class,'UserDelete']);
+Route::get('registration', [RegisterController::class, 'registration'])->name('register');
+Route::post('/api/fetch-amphur', [RegisterController::class, 'fetchAmphur']);
+Route::post('/api/fetch-district', [RegisterController::class, 'fetchDistrict']);
