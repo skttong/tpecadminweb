@@ -16,8 +16,8 @@ class Eq15Controller extends Controller
         	
     public function eq15List(Request $request)
     {
-        $list = DB::table('eq15')
-            ->join('children', 'eq15.child_id', '=', 'children.id')
+        $list = DB::table('children')
+            ->join('eq15', 'eq15.child_id', '=', 'children.id')
             ->get();
         return view('backend.eq15.list_eq15',compact('list'));
     }
@@ -86,14 +86,27 @@ else
       
         DB::table('eq15')->where('id', $id)->first();        
         $data = array();
-        $data['name'] = $request->name;
-        $data['slug'] = $request->slug;
+        $data['r1'] = $request->r1; 
+        $data['r2'] = $request->r2;
+        $data['r3'] = $request->r3;  
+        $data['r4'] = $request->r4; 
+        $data['r5'] = $request->r5;
+        $data['r6'] = $request->r6; 
+        $data['r7'] = $request->r7; 
+        $data['r8'] = $request->r8;
+        $data['r9'] = $request->r9;  
+        $data['r10'] = $request->r10; 
+        $data['r11'] = $request->r11;
+        $data['r12'] = $request->r12; 
+        $data['r13'] = $request->r13; 
+        //$data['r14'] = $request->r14;
+        $data['r15'] = $request->r15; 
         $update = DB::table('eq15')->where('id', $id)->update($data);
 
         if ($update) 
     {
             
-            return Redirect()->route('eq15.index')->with('success','Book Category Updated successfully!');                     
+            return Redirect()->route('eq15.index')->with('success','Updated successfully!');                     
     }
         else
     {

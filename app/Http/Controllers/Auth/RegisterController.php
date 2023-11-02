@@ -8,6 +8,9 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use App\Models\{Province,Amphur,District,Hospital,School};
+use Illuminate\Http\Request;
+
 
 class RegisterController extends Controller
 {
@@ -39,7 +42,29 @@ class RegisterController extends Controller
     public function __construct()
     {
         $this->middleware('guest');
+
     }
+
+    public function registration()
+    {   
+        $data['provinces'] = Province::get(["PROVINCE_ID","PROVINCE_NAME"]); 
+        //print_r($data);
+        return view('auth.register',$data);
+    }
+
+    public function fetchAmphur(Request $request)
+    {
+        $data['amphur'] = Amphur::where("PROVINCE_ID",$request->country_id)
+                    ->get(["AMPHUR_NAME","AMPHUR_ID"]);
+        return response()->json($data);
+    }
+    public function fetchDistrict(Request $request)
+    {
+        $data['district'] = District::where("AMPHUR_ID",$request->state_id)
+                    ->get(["DISTRICT_NAME","DISTRICT_ID"]);
+        return response()->json($data);
+    }
+
 
     /**
      * Get a validator for an incoming registration request.
@@ -70,6 +95,12 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'agency' => $data['agency'],
+            'position' => $data['position'],
+            'address' => $data['address'],
+            'province' => $data['province'],
+            'district' => $data['district'],
+            'subdistrict' => $data['subdistrict'],
+            'typeposition' => $data['typeposition'],
             
         ]);
     }
