@@ -12,7 +12,7 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Add Book Category</h3>
+                <h3 class="card-title">Add </h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -81,7 +81,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td colspan="7">ด้านการสร้างความผูกพันทางอารมณ์ประคับประคองทางจิตใจ (nurture & support: PPP-NS)</td>
+                            <td colspan="7"><h5>ด้านการสร้างความผูกพันทางอารมณ์ประคับประคองทางจิตใจ (nurture & support: PPP-NS)</h5></td>
                         </tr>
                         <tr>
                             <td>1.</td>
@@ -400,7 +400,7 @@
                         <td colspan="5"></td>
                     </tr>
                     <tr>
-                        <td colspan="7">การสร้างวินัยเชิงบวก (positive discipline: PPP-PD)</td>
+                        <td colspan="7"><h5>การสร้างวินัยเชิงบวก (positive discipline: PPP-PD)</h5></td>
                     </tr>
                     <tr>
                         <td>9.</td>
@@ -719,7 +719,7 @@
                         <td colspan="5"></td>
                     </tr>
                     <tr>
-                        <td colspan="7">การส่งเสริมพัฒนาการเด็ก (developmental stimulation: PPP-DS)</td>
+                        <td colspan="7"><h5>การส่งเสริมพัฒนาการเด็ก (developmental stimulation: PPP-DS)</h5></td>
                     </tr>
                     <tr>
                         <td>17.</td>

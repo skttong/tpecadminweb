@@ -71,11 +71,53 @@
 <td> {{ $row->r22 }} </td>
 <td> {{ $row->r23 }} </td>
 <td> {{ $row->r24 }} </td>
-<td></td>
+<td>
+@php 
+
+        $tr1 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r1);
+        $tr2 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r2);
+        $tr3 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r3);
+        $tr4 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r4);
+        $tr5 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r5);
+        $tr6 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r6);
+        $tr7 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r7);
+        $tr8 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r8);
+        $tr9 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r9);
+        $tr10 = App\Http\Controllers\backend\TripleP24Controller::modelTwo($row->r10);
+        $tr11 = App\Http\Controllers\backend\TripleP24Controller::modelTwo($row->r11);
+        $tr12 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r12);
+        $tr13 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r13);
+        $tr14 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r14);
+        $tr15 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r15);
+        $tr16 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r16);
+        $tr17 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r17);
+        $tr18 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r18); 
+        $tr19 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r19);
+        $tr20 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r20);
+        $tr21 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r21);
+        $tr22 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r22);
+        $tr23 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r23);
+        $tr24 = App\Http\Controllers\backend\TripleP24Controller::modelOne($row->r24);
+
+   
+        $total =  $tr1+$tr2+$tr3+$tr4+$tr5+$tr6+$tr7+$tr8+$tr9+$tr10+$tr11+$tr12+$tr13+$tr14+$tr15+$tr16+$tr17+$tr18+$tr19+$tr20+$tr21+$tr22+$tr23+$tr24;
+
+        if($total >= 96){
+        @endphp 
+             <p style="color: green ;">{{$total}}</p>
+        @php
+        }else{
+        @endphp 
+             <p style="color: red ;">{{$total}}</p>
+        @php     
+        }
+     @endphp 
+
+</td>
 
 <td>
-<a href="{{ URL::to('/edit_bookcategory/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
-<a href="{{ URL::to('delete_bookcategory/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
+<a href="{{ URL::to('/edit_triplep24/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
+<a href="{{ URL::to('delete_triplep24/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
 
 </td>
 </tr>

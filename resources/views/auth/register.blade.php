@@ -16,7 +16,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{('backend/dist/css/adminlte.min.css')}}">
 </head>
-<body class="hold-transition register-page">
+<body class="hold-transition register-page" style="background-image: url({{('backend/dist/img/bghome.jpg')}});">
 <div class="register-box">
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
@@ -84,11 +84,166 @@ autocomplete="new-password"  placeholder="Password">
 </div>
 
 <div class="input-group mb-3">
-          <input type="text" name="agency" class="form-control" placeholder="agency" autofocus>
+          <input type="text" name="agency" class="form-control" placeholder="agency" value="user" autofocus readonly>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
             </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" name="position" class="form-control" placeholder="ตำแหน่ง" autofocus>
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" name="address" class="form-control" placeholder="ที่อยู่" autofocus>
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+    <!--
+        <div class="input-group mb-3">
+          <input type="text" name="agency4" class="form-control" placeholder="อำเภอ" autofocus>
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" name="agency5" class="form-control" placeholder="ตำบล" autofocus>
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" name="agency6" class="form-control" placeholder="จังหวัด" autofocus>
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+-->
+        <div class="form-group">
+                    <label for="exampleInputEmail1">จังหวัด</label>
+                   <!-- <input type="text" name="province"  class="form-control @error('province') is-invalid @enderror"
+                    id="exampleInputEmail1" placeholder="Enter Slug Name">-->
+              
+                    <select class="form-control" id="province">
+                          <option value="">Select Country</option>
+ 
+                            @foreach ($provinces as $country) 
+                                <option value="{{$country->PROVINCE_ID}}">
+                                 {{$country->PROVINCE_NAME}}
+                                </option>
+                            @endforeach
+                             
+                          </select>
+
+
+
+                    @error('province')
+                    <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                    </div>
+        
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">อำเภอ</label>
+                    <!--<input type="text" name="district"  class="form-control @error('district') is-invalid @enderror"
+                    id="exampleInputEmail1" placeholder="Enter Slug Name">-->
+                    <select id="district" class="form-control">
+                    </select>
+
+                    @error('district')
+                    <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                    </div>
+
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">ตำบล</label>
+                    <!--<input type="text" name="subdistrict"  class="form-control @error('subdistrict') is-invalid @enderror"
+                    id="exampleInputEmail1" placeholder="Enter Slug Name">-->
+                    <select id="subdistrict" class="form-control">
+                    </select>
+
+                    @error('subdistrict')
+                    <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                    </span>
+                    @enderror
+                    </div>
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#province').on('change', function () {
+                var idCountry = this.value;
+
+                //alert(idCountry);
+
+                $("#district").html('');
+                $.ajax({
+                    url: "{{url('api/fetch-amphur')}}",
+                    type: "POST",
+                    data: {
+                        country_id: idCountry,
+                        _token: '{{csrf_token()}}'
+                    },
+                    dataType: 'json',
+                    success: function (result) {
+                        $('#district').html('<option value="">Select State</option>');
+                        $.each(result.amphur, function (key, value) {
+                            $("#district").append('<option value="' + value
+                                .AMPHUR_ID + '">' + value.AMPHUR_NAME + '</option>');
+                        });
+                        $('#subdistrict').html('<option value="">Select City</option>');
+                    }
+                });
+            });
+            $('#district').on('change', function () {
+                var idState = this.value;
+                $("#subdistrict").html('');
+                $.ajax({
+                    url: "{{url('api/fetch-district')}}",
+                    type: "POST",
+                    data: {
+                        state_id: idState,
+                        _token: '{{csrf_token()}}'
+                    },
+                    dataType: 'json',
+                    success: function (res) {
+                        $('#subdistrict').html('<option value="">Select City</option>');
+                        $.each(res.district, function (key, value) {
+                            $("#subdistrict").append('<option value="' + value
+                                .DISTRICT_ID + '">' + value.DISTRICT_NAME + '</option>');
+                        });
+                    }
+                });
+            });
+        });
+
+    </script>  
+
+
+
+        <div class="input-group mb-3">
+          <p class="login-box-msg">เป็นบุคลากร</p>
+          <div class="input-group-append">
+            <input type="radio" id="type_01_1" name="type_01" value="บุคลากรทางการศึกษา"> <label for="type_01_1" >บุคลากรทางการศึกษา</label>
+            <input type="radio" id="type_01_2" name="type_01" value="บุคลากรสาธารณสุข"> <label for="type_01_2" >บุคลากรสาธารณสุข</label>
           </div>
         </div>
 
@@ -111,10 +266,10 @@ autocomplete="new-password"  placeholder="Password">
       </form>
 
       <div class="social-auth-links text-center">
-        <a href="#" class="btn btn-block btn-primary">
+        <!--<a href="#" class="btn btn-block btn-primary">
           <i class="fab fa-facebook mr-2"></i>
           Sign up using Facebook
-        </a>
+        </a>-->
         <a href="#" class="btn btn-block btn-danger">
           <i class="fab fa-google-plus mr-2"></i>
           Sign up using Google+
@@ -127,6 +282,8 @@ autocomplete="new-password"  placeholder="Password">
   </div><!-- /.card -->
 </div>
 <!-- /.register-box -->
+
+
 
 <!-- jQuery -->
 <script src="{{('backend/plugins/jquery/jquery.min.js')}}"></script>

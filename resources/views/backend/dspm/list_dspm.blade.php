@@ -26,8 +26,8 @@
 <td></td>
 
 <td>
-<a href="{{ URL::to('/edit_bookcategory/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
-<a href="{{ URL::to('delete_bookcategory/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
+<a href="{{ URL::to('/edit_dspm/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
+<a href="{{ URL::to('delete_dspm/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
 
 </td>
 </tr>

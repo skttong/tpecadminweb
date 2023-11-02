@@ -21,7 +21,7 @@
                         <div class="card-body">
 
                         <div class="form-group">
-                    <label for="exampleInputEmail1">จังหวัด</label>
+                    <label for="exampleInputEmail1">เขตสุภาพที่</label>
                    <!-- <input type="text" name="province"  class="form-control @error('province') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">-->
               

@@ -11,7 +11,7 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Add Book Category</h3>
+                <h3 class="card-title">Add triplep6</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -22,7 +22,7 @@
 
 <div class="col-lg-12 margin-tb">
         <div class="pull-left">
-            <h2>Add New</h2>
+            <h2>Back</h2>
         </div>
         <div class="pull-right">
             <a class="btn btn-primary" href="{{ route('triplep6.index') }}"> Back</a>

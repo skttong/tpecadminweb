@@ -1,11 +1,11 @@
 @extends('backend.layouts.app')
 @section('content')
 
-       <div class="row">
+<div class="row">
 <div class="col-md-12">
 <div class="card card-primary">
 <div class="card-header info">
-<h3 class="card-title">TripleP6 List</h3>
+<h3 class="card-title">EQ15 List</h3>
 </div>
             <!-- /.card-header -->
  <div class="card-body">
@@ -56,8 +56,8 @@
 <td>  </td>
 
 <td>
-<a href="{{ URL::to('/edit_bookcategory/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
-<a href="{{ URL::to('delete_bookcategory/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
+<a href="{{ URL::to('/edit_eq15/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
+<a href="{{ URL::to('delete_eq15/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
 
 </td>
 </tr>
@@ -73,4 +73,4 @@
         </div>
         </div>
 
-            @endsection
+@endsection
