@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use App\Models\{Province,Amphur,District,Hospital,School};
 use Illuminate\Http\Request;
+use DB;
 
 
 class RegisterController extends Controller
@@ -64,6 +65,52 @@ class RegisterController extends Controller
                     ->get(["DISTRICT_NAME","DISTRICT_ID"]);
         return response()->json($data);
     }
+
+    public function regiInsert(Request $request)
+    {
+        /*'name' => $data['name'],
+        'email' => $data['email'],
+        'password' => Hash::make($data['password']),
+        'agency' => $data['agency'],
+        'position' => $data['position'],
+        'address' => $data['address'],
+        'province' => $data['province'],
+        'district' => $data['district'],
+        'subdistrict' => $data['subdistrict'],
+        'typeposition' => $data['typeposition'],
+        */
+        $data = array();
+        $data['name'] = $request->name;
+        $data['email'] = $request->email; 
+        $data['password'] = Hash::make($request->password);
+       // $data['role'] = $request->role;  
+       // $data['r4'] = $request->r4; 
+       // $data['r5'] = $request->r5;
+       // $data['r6'] = $request->r6; 
+
+        //`name`, `email`, `email_verified_at`, `password`, `role`,
+        //$data['created_at'] = $request->r5;
+        //$data['updated_at'] = $request->r6;   
+
+        $insert = DB::table('users')->insert($data);
+            
+        if ($insert) 
+        {
+        
+                        return Redirect()->route('Home.index')->with('success','Book Category created successfully!');
+                        
+                }
+        else
+                {
+                $notification=array
+                (
+                'messege'=>'error ',
+                'alert-type'=>'error'
+                );
+                return Redirect()->route('home.index')->with($notification);
+                }
+                
+        }
 
 
     /**

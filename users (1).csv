@@ -1,0 +1,19 @@
+"id","name","email","email_verified_at","password","role","remember_token","agency","position","address","province","district","subdistrict","typeposition","created_at","updated_at"
+"1","admin","sommanuttong@gmail.com",NULL,"$2y$10$w7O88kP7IzMQgcgpwlxc1eUSyefjp2KtNCMp1BSwRQfb9UCUgJO5O","1",NULL,,NULL,NULL,NULL,NULL,NULL,NULL,"2023-09-26 03:29:23","2023-09-26 03:29:23"
+"2","sommanut ketpong","sommanuttong@hotmail.com",NULL,"$2y$10$8sda4SrxpPJDOJHADYfoueW51K3r86EE.HSYhzXOaKL6sc/lOcJA.","2",NULL,,NULL,NULL,NULL,NULL,NULL,NULL,"2023-09-26 03:39:03","2023-09-26 03:39:03"
+"6","sommanut ketpong","sommanut_tong@hotmail.com",NULL,"$2y$10$9ov3wqsfVODLN5d9.E9/y.LxTLYC.6cL9h5vmoK16FdDGhiBLLcv2","3",NULL,"admin",NULL,NULL,NULL,NULL,NULL,NULL,"2023-10-10 06:41:22","2023-10-10 06:41:22"
+"9","sommanut ketpong","sommanut_tong@gmail.com",NULL,"$2y$10$4.u.f1BTdHeiXEJ.Z50EdOJvDduFwAcuczd4D/66IGhDyD3fHb9ae","3",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"12","ยุวนา  ไขว้พันธ์","oilooy427@gmail.com",NULL,"$2y$10$.O/a.3MC5IJTGieKytUWceJhS7q2usn2oe7gCaY7.965/lN19DEgi","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"14","อสมาภรณ์ ทิมฉิม","child.mhc13@gmail.com",NULL,"$2y$10$fn7MOHRKcSNMW0/.mb/e0u8PcP3Fp6NjBStZK0.G3S7ytLolVlEKC","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"15","วนิดา แก้ววงศ์","wanidaricd391@gmail.com",NULL,"$2y$10$TNe/jathTRINdqWmYH46E.oel5uKPhQJRdAhFnmZ5t8rkRVf8.cyq","1",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"16","ธิดารัตน์ บุญปก","Mentalhealthcenter10@gmail.com",NULL,"$2y$10$lXE2gdgzBI8M4xGnzsYsHOaGHE/qXR/YLVulcgiDhxYzgOgaRxECC","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"18","ธัณภ์วรัตน์  จันทร์นวล","can.thanwarat@gmail.com",NULL,"$2y$10$hSSL0leUD0VFwdmqtj8QseMOQiyzc5g3B6H1SxAtwJUrorAaWeHC.","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"19","กีรติ ลิ่มสืบเชื้อ","triple.p.camri@gmail.com",NULL,"$2y$10$.QuDtv2Dzw4qQhT7UFtHvOD6e5I2CeCR0iehTtqFL3VtEuTt82cY6","1",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"20","ศศิรกานญ์ รุ่งสกุล","sasirakan.r@gmail.com",NULL,"$2y$10$xVmjCsAWCcycWOc5HNFKuOsdIbPhmtTWbWklfxd1b9Nq0gysgCUmu","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"21","ระวีวรรณ สุขเนาวรัตน์","raweewan.302532@gmail.com",NULL,"$2y$10$mq87W9urRUgi/REyRDDZXOR6NLJ.xOCNoFLEW6aJYQ1I0ttlgggEG","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"22","วรพจน์ พนาปวุฒิกุล","jamepc@gmail.com",NULL,"$2y$10$iT..byKJZw0jyHsva.rZKOjOownVHADPbyoSD/kMrdykeEe6bu59O","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"24","เบญญภา สมลักษณ์","benyapha04@gmail.com",NULL,"$2y$10$kACex64hQKBbaNuLi9cNpuGS7gpE0idlL3Q.IVWueW5yy8DwSgcMa","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"25","วรัญญ์กานต์ วงษ์ขันธ์","warantorthank@gmail.com",NULL,"$2y$10$ZYLfp4Ag00MnF6R/nm5cn.tNBv0GIxWypmHGA0KXJdKlXUWbd2OiO","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"26","มาลิณี   พุทธมา","beermalinee@gmail.com",NULL,"$2y$10$.nZ9VZVZk563dLKezLbHre4LfdL82Sf3XZLGpYEl9aFqrAe1Csxea","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"27","ภัทราพร ตันนุกูล","kinglovelinus06@gmail.com",NULL,"$2y$10$/lSpuORlIrq.MCWrnmHh6Oa9ZOivTaPAgY.vedsq0sN97dRi4XOQO","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"28","รุสนี  มะทา","rusnimatha@gmail.com",NULL,"$2y$10$ghLFSAAJqAtXDxY89NtzTO.lNNvOFoD8SQXKr0ddp6AuDtqSm8KRe","2",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL

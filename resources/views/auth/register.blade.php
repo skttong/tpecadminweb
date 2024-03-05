@@ -25,7 +25,7 @@
     <div class="card-body">
       <p class="login-box-msg">Register a new membership</p>
 
-      <form method="POST" action="{{ route('register') }}">
+      <form method="POST" action="{{ route('regiInsert') }}">
                         @csrf
         <div class="input-group mb-3">
           <input type="text" name="name" class="form-control" placeholder="Full name" autofocus>

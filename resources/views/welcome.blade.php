@@ -9,7 +9,11 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+       <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
 
         <!-- Styles -->
         <style>
@@ -41,11 +45,12 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             
                 <ul class="navbar-nav ml-auto flex-nowrap">
-                @if (Route::has('login'))
-                @auth
+                
                     <li class="nav-item">
                         <a href="{{ url('/home') }}" class="nav-link m-2 menu-item nav-active">Home</a>
                     </li>
+                    @if (Route::has('login'))
+                @auth
                     <li class="nav-item">
                         <a href="#" class="nav-link m-2 menu-item">Dashboard/ผลการดำเนินงาน</a>
                     </li>
@@ -68,9 +73,9 @@
                         </form>
                     </li>
                     @else
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <a href="{{ url('/home') }}" class="nav-link m-2 menu-item nav-active">Home</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                         <a href="#" class="nav-link m-2 menu-item">Dashboard/ผลการดำเนินงาน</a>
                     </li>

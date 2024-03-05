@@ -90,6 +90,9 @@ Route::get('/add_user', [App\Http\Controllers\backend\UsermanagementController::
 Route::get('/edit_user/{id}', [App\Http\Controllers\backend\UsermanagementController::class,'UserEdit']);
 Route::post('/update_user/{id}', [App\Http\Controllers\backend\UsermanagementController::class,'UserUpdate']);
 Route::get('/delete_user/{id}', [App\Http\Controllers\backend\UsermanagementController::class,'UserDelete']);
+
 Route::get('registration', [RegisterController::class, 'registration'])->name('register');
 Route::post('/api/fetch-amphur', [RegisterController::class, 'fetchAmphur']);
 Route::post('/api/fetch-district', [RegisterController::class, 'fetchDistrict']);
+Route::post('/add_regis', [RegisterController::class, 'regiInsert'])->name('regiInsert');
+//Route::post('registration', [RegisterController::class, 'regiInsert']);
