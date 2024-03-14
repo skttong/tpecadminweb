@@ -116,7 +116,7 @@
 </td>
 
 <td>
-<a href="{{ URL::to('/edit_triplep24/'.$row->id) }}" class="btn btn-sm btn-info">Edit</a>
+<a href="{{ URL::to('/edit_triplep24/'.$row->id) }}" class="btn btn-sm btn-info">Detail</a>
 <a href="{{ URL::to('delete_triplep24/'.$row->id) }}" class="btn btn-sm btn-danger" id="delete" class="middle-align">Delete</a>
 
 </td>
