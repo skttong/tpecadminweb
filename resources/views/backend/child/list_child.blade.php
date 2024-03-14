@@ -59,10 +59,22 @@
                       <td>{{ $row->id }}</td>
                       <td>{{ $row->prefix }}{{ $row->names }}  {{ $row->surnames }}</td>
                       <td><a href="{{ URL::to('/edit_child/'.$row->id) }}" class="btn btn-block bg-gradient-primary btn-sm">ดู</a></td>
-                      <td><a href="{{ URL::to('/add_dspm/'.$row->id) }}" class="btn btn-block bg-gradient-secondary btn-sm">ตอบ</a></td>
-                      <td><a href="{{ URL::to('/add_triplep24/'.$row->id) }}" class="btn btn-block bg-gradient-success btn-sm">ตอบ</a></td>
-                      <td><a href="{{ URL::to('/add_eq15/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">ตอบ</a></td>
-                      <td><a href="{{ URL::to('/add_triplep6/'.$row->id) }}" class="btn btn-block bg-gradient-warning btn-sm">ตอบ</a></td>
+                      <td>
+                        <a href="{{ URL::to('/add_dspm/'.$row->id) }}" class="btn btn-block bg-gradient-secondary btn-sm">PRE</a>
+                        <a href="{{ URL::to('/add_dspm/'.$row->id) }}" class="btn btn-block bg-gradient-secondary btn-sm">POST</a>
+                      </td>
+                      <td>
+                        <a href="{{ URL::to('/add_triplep24/'.$row->id) }}" class="btn btn-block bg-gradient-success btn-sm">PRE</a>
+                        <a href="{{ URL::to('/add_triplep24/'.$row->id) }}" class="btn btn-block bg-gradient-success btn-sm">POST</a>
+                      </td>
+                      <td>
+                        <a href="{{ URL::to('/add_eq15/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">PRE</a>
+                        <a href="{{ URL::to('/add_eq15/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">POST</a>
+                      </td>
+                      <td>
+                        <a href="{{ URL::to('/add_triplep6/'.$row->id) }}" class="btn btn-block bg-gradient-warning btn-sm">PRE</a>
+                        <a href="{{ URL::to('/add_triplep6/'.$row->id) }}" class="btn btn-block bg-gradient-warning btn-sm">POST</a>
+                      </td>
                       <td></td>
                       
 

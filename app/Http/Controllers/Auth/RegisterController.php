@@ -97,7 +97,7 @@ class RegisterController extends Controller
         if ($insert) 
         {
         
-                        return Redirect()->route('Home.index')->with('success','Book Category created successfully!');
+                        return Redirect()->route('home')->with('success','Book Category created successfully!');
                         
                 }
         else
@@ -107,7 +107,7 @@ class RegisterController extends Controller
                 'messege'=>'error ',
                 'alert-type'=>'error'
                 );
-                return Redirect()->route('home.index')->with($notification);
+                return Redirect()->route('home')->with($notification);
                 }
                 
         }

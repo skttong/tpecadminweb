@@ -103,6 +103,7 @@
                     @enderror
                     </div>
 
+                    <!--
                     <div class="form-group">
                     <label for="exampleInputEmail1">ที่อยู่</label>
                     <input type="text" name="address"  class="form-control @error('address') is-invalid @enderror"
@@ -116,10 +117,10 @@
                     </div>
 
                     <div class="form-group">
-                    <label for="exampleInputEmail1">ตำบล</label>
+                    <label for="exampleInputEmail1">ตำบล</label>-->
                     <!--<input type="text" name="subdistrict"  class="form-control @error('subdistrict') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">-->
-                    <select id="subdistrict" class="form-control">
+                    <!--<select id="subdistrict" class="form-control">
                     </select>
 
                     @error('subdistrict')
@@ -134,7 +135,7 @@
                     <label for="exampleInputEmail1">อำเภอ</label>
                     <!--<input type="text" name="district"  class="form-control @error('district') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">-->
-                    <select id="district" class="form-control">
+                   <!-- <select id="district" class="form-control">
                     </select>
 
                     @error('district')
@@ -148,7 +149,7 @@
                     <label for="exampleInputEmail1">จังหวัด</label>
                    <!-- <input type="text" name="province"  class="form-control @error('province') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">-->
-              
+              <!--
                     <select class="form-control" id="province">
                           <option value="">Select Country</option>
  
@@ -191,7 +192,7 @@
                     <strong>{{ $message }}</strong>
                     </span>
                     @enderror
-                    </div>
+                    </div>-->
 
                     <div class="form-group">
                     <label for="exampleInputEmail1">ชื่อ-นามสกุล พ่อ</label>
@@ -265,12 +266,12 @@
                     </span>
                     @enderror
                     </div>
-
+<!--
                     <div class="form-group">
                     <label for="exampleInputEmail1">โรงพยาบาล</label>
                     <!--<input type="text" name="hcode9"  class="form-control @error('hcode9') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">-->
-
+<!--
                     <select class="form-control" id="hcode9">
                           <option value="">Select hospital</option>
  
@@ -289,7 +290,7 @@
                     @enderror
                     </div>
 
-                           
+-->
 
 
                  

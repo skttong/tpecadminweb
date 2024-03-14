@@ -14,7 +14,7 @@
 <tr>
 <th>ID</th>
 <th>Name</th>               
-<th>ข้อ 1</th>  
+<!--<th>ข้อ 1</th>  
 <th>ข้อ 2</th>  
 <th>ข้อ 3</th> 
 <th>ข้อ 4</th>  
@@ -37,7 +37,7 @@
 <th>ข้อ 21</th> 
 <th>ข้อ 22</th> 
 <th>ข้อ 23</th> 
-<th>ข้อ 24</th> 
+<th>ข้อ 24</th> -->
 <th>รวม</th>   
 <th>Action</th>                  
 </tr>
@@ -47,7 +47,7 @@
 <tr>
 <td>{{ $row->id }}</td>
 <td>{{ $row->prefix }}{{ $row->names }} {{ $row->surnames }}</td>
-<td> {{ $row->r1 }} </td>
+<!--<td> {{ $row->r1 }} </td>
 <td> {{ $row->r2 }} </td>
 <td> {{ $row->r3 }} </td>
 <td> {{ $row->r4 }} </td>
@@ -70,7 +70,7 @@
 <td> {{ $row->r21 }} </td>
 <td> {{ $row->r22 }} </td>
 <td> {{ $row->r23 }} </td>
-<td> {{ $row->r24 }} </td>
+<td> {{ $row->r24 }} </td>-->
 <td>
 @php 
 

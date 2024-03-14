@@ -58,7 +58,7 @@
                         <a href="#" class="nav-link m-2 menu-item">ระบบรายงาน</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item">คู่มือการใช้งานระบบ</a>
+                    <a href="{{('/backend/dist/fileupload/คู่มือ.pdf')}}" class="nav-link m-2 menu-item"  target="_blank">คู่มือการใช้งานระบบ</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link m-2 menu-item">Contract</a>
@@ -80,7 +80,7 @@
                         <a href="#" class="nav-link m-2 menu-item">Dashboard/ผลการดำเนินงาน</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item">คู่มือการใช้งานระบบ</a>
+                    <a href="{{('/backend/dist/fileupload/คู่มือ.pdf')}}" class="nav-link m-2 menu-item"  target="_blank">คู่มือการใช้งานระบบ</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link m-2 menu-item">Contract</a>

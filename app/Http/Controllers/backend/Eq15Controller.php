@@ -120,6 +120,40 @@ else
      
     }
 
+    public static function modelOne($amount)
+    {
+        if($amount == 5){
+            $tr = 1 ;
+        }elseif($amount == 4){
+            $tr = 2 ;
+        }elseif($amount == 3){
+            $tr = 3 ;
+        }elseif($amount == 2){
+            $tr = 4 ;
+        }elseif($amount == 1){
+            $tr = 5 ;
+        }
+
+        return $tr;
+    }
+
+    public static function modelTwo($amount)
+    {
+        if($amount == 5){
+            $tr = 5 ;
+        }elseif($amount == 4){
+            $tr = 4 ;
+        }elseif($amount == 3){
+            $tr = 3 ;
+        }elseif($amount == 2){
+            $tr = 2 ;
+        }elseif($amount == 1){
+            $tr = 1 ;
+        }
+
+        return $tr;
+    }
+
 public function eq15DeleteCategory ($id)
     {
     
