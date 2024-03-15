@@ -86,7 +86,7 @@
                         <td>ท่านโอบกอด และหอมแก้มลูกทุกวัน</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r1" value="1" checked id="radioSuccess1_1">
+                                <input type="radio" name="r1" value="1"  id="radioSuccess1_1">
                                 <label for="radioSuccess1_1">
                                 </label>
                               </div>
@@ -132,7 +132,7 @@
                         <td>ท่านรับฟัง และเข้าใจว่าลูกกำลังรู้สึกหรือต้องการอะไร</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r2" value="1" checked id="radioSuccess2_1">
+                                <input type="radio" name="r2" value="1"  id="radioSuccess2_1">
                                 <label for="radioSuccess2_1">
                                 </label>
                               </div>
@@ -178,7 +178,7 @@
                         <td>ท่านดุด่าหรือตะคอกลูก***</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r3" value="1" checked id="radioSuccess3_1">
+                                <input type="radio" name="r3" value="1"  id="radioSuccess3_1">
                                 <label for="radioSuccess3_1">
                                 </label>
                               </div>
@@ -224,7 +224,7 @@
                         <td>ท่านอธิบายกับลูกว่าทำไมลูกต้องถูกลงโทษ หรือถูกตัดสิทธิ์</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r4" value="1" checked id="radioSuccess4_1">
+                                <input type="radio" name="r4" value="1"  id="radioSuccess4_1">
                                 <label for="radioSuccess4_1">
                                 </label>
                               </div>
@@ -270,7 +270,7 @@
                         <td>ท่านเล่านิทานหรืออ่านหนังสือที่มีประโยชน์และมีเนื้อหาไม่รุนแรงให้ลูกฟัง</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r5" value="1" checked id="radioSuccess5_1">
+                                <input type="radio" name="r5" value="1"  id="radioSuccess5_1">
                                 <label for="radioSuccess5_1">
                                 </label>
                               </div>
@@ -316,7 +316,7 @@
             <td>ท่านสอนให้ลูกรู้จักสีต่างๆ ตัวเลข และสิ่งรอบๆตัว</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r6" value="1" checked id="radioSuccess6_1">
+                                <input type="radio" name="r6" value="1"  id="radioSuccess6_1">
                                 <label for="radioSuccess6_1">
                                 </label>
                               </div>

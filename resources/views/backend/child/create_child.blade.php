@@ -81,7 +81,7 @@
 
                     <div class="form-group">
                     <label for="exampleInputEmail1">วันเกิด</label>
-                    <input type="text" name="date_of_birth"  class="form-control @error('date_of_birth') is-invalid @enderror"
+                    <input type="date" name="date_of_birth"  class="form-control @error('date_of_birth') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">
 
                     @error('date_of_birth')

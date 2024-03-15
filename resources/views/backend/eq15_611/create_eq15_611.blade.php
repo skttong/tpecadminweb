@@ -87,7 +87,7 @@
                         <td>รู้จักให้กําลังใจผู้อื่น</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r1" value="1" checked id="radioSuccess1_1">
+                                <input type="radio" name="r1" value="1"  id="radioSuccess1_1">
                                 <label for="radioSuccess1_1">
                                 </label>
                               </div>
@@ -126,7 +126,7 @@
                         <td>รู้จักรับฟังความคิดเห็นของผู้อื่น</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r2" value="1" checked id="radioSuccess2_1">
+                                <input type="radio" name="r2" value="1"  id="radioSuccess2_1">
                                 <label for="radioSuccess2_1">
                                 </label>
                               </div>
@@ -165,7 +165,7 @@
                         <td>ชอบแกล้งเพื่อน</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r3" value="1" checked id="radioSuccess3_1">
+                                <input type="radio" name="r3" value="1"  id="radioSuccess3_1">
                                 <label for="radioSuccess3_1">
                                 </label>
                               </div>
@@ -204,7 +204,7 @@
                         <td>ยอมรับเมื่อทำผิด เช่น ขอโทษหรือยกมือไหว้</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r4" value="1" checked id="radioSuccess4_1">
+                                <input type="radio" name="r4" value="1"  id="radioSuccess4_1">
                                 <label for="radioSuccess4_1">
                                 </label>
                               </div>
@@ -243,7 +243,7 @@
                         <td>ทักทายหรือทำความรู้จักกับเพื่อนใหม่</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r5" value="1" checked id="radioSuccess5_1">
+                                <input type="radio" name="r5" value="1"  id="radioSuccess5_1">
                                 <label for="radioSuccess5_1">
                                 </label>
                               </div>
@@ -285,7 +285,7 @@
                         <td>มีความตั้งใจเมื่อทําสิ่งต่างๆที่สนใจ</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r6" value="1" checked id="radioSuccess6_1">
+                                <input type="radio" name="r6" value="1"  id="radioSuccess6_1">
                                 <label for="radioSuccess6_1">
                                 </label>
                               </div>
@@ -324,7 +324,7 @@
                         <td>พยายามทํางานที่ยากให้สําเร็จได้ด้วยตนเองเช่นการบ้านการฝีมือ</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r7" value="1" checked id="radioSuccess7_1">
+                                <input type="radio" name="r7" value="1"  id="radioSuccess7_1">
                                 <label for="radioSuccess7_1">
                                 </label>
                               </div>
@@ -363,7 +363,7 @@
                         <td>ท้อใจหรือล้มเลิกความตั้งใจเมื่อทำงานไม่สำเร็จหรือเมื่อมีปัญหา</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r8" value="1" checked id="radioSuccess8_1">
+                                <input type="radio" name="r8" value="1"  id="radioSuccess8_1">
                                 <label for="radioSuccess8_1">
                                 </label>
                               </div>
@@ -403,7 +403,7 @@
                         <td>รู้จักรอคอยเวลาที่เหมาะสมในการแก้ปัญหาเช่นเมื่อไม่ได้ในสิ่งที่ต้องการ</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r9" value="1" checked id="radioSuccess9_1">
+                                <input type="radio" name="r9" value="1"  id="radioSuccess9_1">
                                 <label for="radioSuccess9_1">
                                 </label>
                               </div>
@@ -442,7 +442,7 @@
                         <td>เมื่อมีปัญหาชอบคิดหาวิธีแก้ปัญหาหลายๆทาง</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r10" value="1" checked id="radioSuccess10_1">
+                                <input type="radio" name="r10" value="1"  id="radioSuccess10_1">
                                 <label for="radioSuccess10_1">
                                 </label>
                               </div>
@@ -484,7 +484,7 @@
                         <td>ภูมิใจในจุดดีของตนเอง</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r11" value="1" checked id="radioSuccess11_1">
+                                <input type="radio" name="r11" value="1"  id="radioSuccess11_1">
                                 <label for="radioSuccess11_1">
                                 </label>
                               </div>
@@ -523,7 +523,7 @@
                         <td>มีอารมณ์ขัน</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r12" value="1" checked id="radioSuccess12_1">
+                                <input type="radio" name="r12" value="1"  id="radioSuccess12_1">
                                 <label for="radioSuccess12_1">
                                 </label>
                               </div>
@@ -562,7 +562,7 @@
                         <td>ทํากิจกรรมสร้างสุขให้ตนเองได้อย่างเหมาะสม</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r13" value="1" checked id="radioSuccess13_1">
+                                <input type="radio" name="r13" value="1"  id="radioSuccess13_1">
                                 <label for="radioSuccess13_1">
                                 </label>
                               </div>
@@ -601,7 +601,7 @@
                         <td>วิธีผ่อนคลายความเครียดด้วยตนเองเช่นอ่านหนังสือดูหนังฟังเพลงเล่นสนุกวาดรูปพูดคุยกับเพื่อน</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r14" value="1" checked id="radioSuccess14_1">
+                                <input type="radio" name="r14" value="1"  id="radioSuccess14_1">
                                 <label for="radioSuccess14_1">
                                 </label>
                               </div>
@@ -645,7 +645,7 @@
                         <td>เป็นเด็กอารมณ์ดี</td>
                         <td>
                             <div class="icheck-success d-inline">
-                                <input type="radio" name="r15" value="1" checked id="radioSuccess15_1">
+                                <input type="radio" name="r15" value="1"  id="radioSuccess15_1">
                                 <label for="radioSuccess15_1">
                                 </label>
                               </div>
