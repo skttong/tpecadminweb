@@ -61,7 +61,7 @@ Route::get('/edit_eq15/{id}', [App\Http\Controllers\backend\Eq15Controller::clas
 Route::post('/update_eq15/{id}', [App\Http\Controllers\backend\Eq15Controller::class,'eq15UpdateCategory']);
 Route::get('/delete_eq15/{id}', [App\Http\Controllers\backend\Eq15Controller::class,'eq15DeleteCategory']);
 
-Route::get('list_eq15611', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15611List'])->name('eq15_611.index');
+Route::get('list_eq15611', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15611List'])->name('eq15611.index');
 Route::get('/add_eq15611/{id}',[App\Http\Controllers\backend\Eq15611Controller::class,'eq15611Add'])->name('eq15611add');
 Route::post('/insert_eq15611', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15611Insert']);
 Route::get('/edit_eq15611/{id}', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15611EditCategory']);

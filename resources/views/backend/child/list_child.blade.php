@@ -47,7 +47,7 @@
                         <th>รายละเอียด</th>
                         <th>DSPM</th>
                         <th>TripleP24 </th>
-                        <th>EQ 15 </th>
+                        <th>EQ 3-5 </th>
                         <th>EQ 6-11 </th>
                         <th>TripleP6 </th>
                         <th></th>

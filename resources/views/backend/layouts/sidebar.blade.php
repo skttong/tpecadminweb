@@ -188,7 +188,7 @@
               <li class="nav-item">
                   <a href="{{URL::to('/list_eq15')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>แบบประเมิน EQ</p>
+                  <p>แบบประเมิน EQ 3-5</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -289,7 +289,7 @@
               <li class="nav-item">
                   <a href="{{URL::to('/list_eq15')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>ตารางแบบประเมิน 15 คำถาม</p>
+                  <p>แบบประเมิน EQ 3-5</p>
                 </a>
               </li>
               <li class="nav-item">

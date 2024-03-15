@@ -19,7 +19,7 @@ class Eq15611Controller extends Controller
         $list = DB::table('children')
             ->join('eq15', 'eq15.child_id', '=', 'children.id')
             ->get();
-        return view('backend.eq15.list_eq15',compact('list'));
+        return view('backend.eq15_611.list_eq15_611',compact('list'));
     }
 
 
@@ -27,7 +27,7 @@ public function eq15611Add($id)
 {
 $child_id = $id ;     
 $all = DB::table('eq15')->get();
-return view('backend.eq15.create_eq15',compact('all'),compact('child_id'));
+return view('backend.eq15_611.create_eq15_611',compact('all'),compact('child_id'));
 }
 
     
@@ -68,7 +68,7 @@ else
         'messege'=>'error ',
         'alert-type'=>'error'
         );
-        return Redirect()->route('eq15.index')->with($notification);
+        return Redirect()->route('eq15611.index')->with($notification);
         }
            
 }
@@ -78,7 +78,7 @@ else
         $edit=DB::table('eq15611')
              ->where('id',$id)
              ->first();
-        return view('backend.eq15611.edit_eq15611', compact('edit'));     
+        return view('backend.eq15611.edit_eq15_611', compact('edit'));     
     }
 
         public function eq15611UpdateCategory(Request $request,$id)
