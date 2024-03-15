@@ -17,7 +17,7 @@ class Eq15611Controller extends Controller
     public function eq15611List(Request $request)
     {
         $list = DB::table('children')
-            ->join('eq15', 'eq15.child_id', '=', 'children.id')
+            ->join('eq15611', 'eq15611.child_id', '=', 'children.id')
             ->get();
         return view('backend.eq15_611.list_eq15_611',compact('list'));
     }
@@ -132,6 +132,8 @@ else
             $tr = 4 ;
         }elseif($amount == 1){
             $tr = 5 ;
+        }else{
+            $tr = 0 ;
         }
 
         return $tr;
@@ -149,7 +151,10 @@ else
             $tr = 2 ;
         }elseif($amount == 1){
             $tr = 1 ;
+        }else{
+            $tr = 0 ;
         }
+
 
         return $tr;
     }

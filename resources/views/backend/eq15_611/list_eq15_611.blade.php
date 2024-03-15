@@ -56,21 +56,21 @@
 <td>
 @php 
 
-        $tr1 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r1);
-        $tr2 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r2);
-        $tr3 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r3);
-        $tr4 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r4);
-        $tr5 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r5);
-        $tr6 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r6);
-        $tr7 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r7);
-        $tr8 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r8);
-        $tr9 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r9);
-        $tr10 = App\Http\Controllers\backend\Eq15Controller::modelTwo($row->r10);
-        $tr11 = App\Http\Controllers\backend\Eq15Controller::modelTwo($row->r11);
-        $tr12 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r12);
-        $tr13 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r13);
-        $tr14 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r14);
-        $tr15 = App\Http\Controllers\backend\Eq15Controller::modelOne($row->r15);
+        $tr1 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r1);
+        $tr2 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r2);
+        $tr3 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r3);
+        $tr4 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r4);
+        $tr5 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r5);
+        $tr6 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r6);
+        $tr7 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r7);
+        $tr8 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r8);
+        $tr9 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r9);
+        $tr10 = App\Http\Controllers\backend\Eq15611Controller::modelTwo($row->r10);
+        $tr11 = App\Http\Controllers\backend\Eq15611Controller::modelTwo($row->r11);
+        $tr12 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r12);
+        $tr13 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r13);
+        $tr14 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r14);
+        $tr15 = App\Http\Controllers\backend\Eq15611Controller::modelOne($row->r15);
 
    
         $total =  $tr1+$tr2+$tr3+$tr4+$tr5+$tr6+$tr7+$tr8+$tr9+$tr10+$tr11+$tr12+$tr13+$tr14+$tr15;

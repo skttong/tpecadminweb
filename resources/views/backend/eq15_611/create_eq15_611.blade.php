@@ -15,7 +15,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form" action="{{URL::to('/insert_eq15')}}" method="post" enctype="multipart/form-data">
+              <form role="form" action="{{URL::to('/insert_eq15611')}}" method="post" enctype="multipart/form-data">
                 <input type="hidden" id="child_id" name="child_id" value="{{$child_id}}">
                 @csrf
                
@@ -25,7 +25,7 @@
             <h2>Add New</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('eq15.index') }}"> Back</a>
+            <a class="btn btn-primary" href="{{ route('eq15611.index') }}"> Back</a>
         </div>
     </div>
 </div>
