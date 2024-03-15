@@ -600,7 +600,7 @@
                       <tr>
                         <td>14.</td>
                         <td>เก็บตัว ไม่เล่นสนุกสนานกับเด็กคนอื่นๆ</td>
-                        <!--<td>
+                        <td>
                             <div class="icheck-success d-inline">
                                 <input type="radio" name="r14" value="1"  id="radioSuccess14_1">
                                 <label for="radioSuccess14_1">
@@ -634,12 +634,12 @@
                                 <label for="radioSuccess14_6">
                                 </label>
                             </div>
-                        </td>-->
+                        </td>
+                        <!--<td></td>
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td> 
+                        <td></td> -->
                       </tr>
                       <tr>
                         <td>15.</td>
