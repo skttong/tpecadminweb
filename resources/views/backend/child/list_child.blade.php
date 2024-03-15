@@ -48,6 +48,7 @@
                         <th>DSPM</th>
                         <th>TripleP24 </th>
                         <th>EQ 15 </th>
+                        <th>EQ 6-11 </th>
                         <th>TripleP6 </th>
                         <th></th>
                       </tr>
@@ -70,6 +71,10 @@
                       <td>
                         <a href="{{ URL::to('/add_eq15/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">PRE</a>
                         <a href="{{ URL::to('/add_eq15/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">POST</a>
+                      </td>
+                      <td>
+                        <a href="{{ URL::to('/add_eq15611/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">PRE</a>
+                        <a href="{{ URL::to('/add_eq15611/'.$row->id) }}" class="btn btn-block bg-gradient-info btn-sm">POST</a>
                       </td>
                       <td>
                         <a href="{{ URL::to('/add_triplep6/'.$row->id) }}" class="btn btn-block bg-gradient-warning btn-sm">PRE</a>

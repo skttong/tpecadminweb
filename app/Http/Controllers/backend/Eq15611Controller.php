@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use DB;
 
-class Eq15Controller extends Controller
+class Eq15611Controller extends Controller
 {
     public function __construct()
     {
@@ -14,7 +14,7 @@ class Eq15Controller extends Controller
     }
   
         	
-    public function eq15List(Request $request)
+    public function eq15611List(Request $request)
     {
         $list = DB::table('children')
             ->join('eq15', 'eq15.child_id', '=', 'children.id')
@@ -23,7 +23,7 @@ class Eq15Controller extends Controller
     }
 
 
-public function eq15Add($id)
+public function eq15611Add($id)
 {
 $child_id = $id ;     
 $all = DB::table('eq15')->get();
@@ -32,7 +32,7 @@ return view('backend.eq15.create_eq15',compact('all'),compact('child_id'));
 
     
 
-    public function eq15Insert(Request $request)
+    public function eq15611Insert(Request $request)
     {
 $data = array();
 $data['child_id'] = $request->child_id;
@@ -73,7 +73,7 @@ else
            
 }
 
-      public function eq15EditCategory ($id)
+      public function eq15611EditCategory ($id)
     {
         $edit=DB::table('eq15611')
              ->where('id',$id)
@@ -81,7 +81,7 @@ else
         return view('backend.eq15611.edit_eq15611', compact('edit'));     
     }
 
-        public function eq15UpdateCategory(Request $request,$id)
+        public function eq15611UpdateCategory(Request $request,$id)
     {
       
         DB::table('eq15611')->where('id', $id)->first();        
@@ -154,7 +154,7 @@ else
         return $tr;
     }
 
-public function eq15DeleteCategory ($id)
+public function eq15611DeleteCategory ($id)
     {
     
         $delete = DB::table('eq15611')->where('id', $id)->delete();

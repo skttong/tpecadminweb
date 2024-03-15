@@ -192,6 +192,12 @@
                 </a>
               </li>
               <li class="nav-item">
+                  <a href="{{URL::to('/list_eq15611')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>แบบประเมิน EQ 6-11</p>
+                </a>
+              </li>
+              <li class="nav-item">
                   <a href="{{URL::to('/list_triplep24')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Triple-P Scale 24 ข้อ</p>
@@ -284,6 +290,12 @@
                   <a href="{{URL::to('/list_eq15')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>ตารางแบบประเมิน 15 คำถาม</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a href="{{URL::to('/list_eq15611')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>แบบประเมิน EQ 6-11</p>
                 </a>
               </li>
               <li class="nav-item">
