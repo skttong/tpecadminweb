@@ -578,7 +578,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                10-12 เดือน(10เดือน - 1ปี)
+                                10-12 เดือน
                             </td>
                             <td align="center">
                                 35. ยืนนาน 2 วินาที
@@ -654,7 +654,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                13-15 เดือน (1ปี 1เดือน - 1ปี 3เดือน)
+                                13-15 เดือน
                             </td>
                             <td align="center">
                                 40. ยืนอยู่ตามลำพังได้นานอย่างน้อย 10 วินาที
@@ -731,7 +731,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                16-17 เดือน (1ปี 4เดือน - 1ปี 5เดือน)
+                                16-17 เดือน 
                             </td>
                             <td align="center">
                                 45. เดินลากของเล่นหรือสิ่งของได้
@@ -807,7 +807,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                18 เดือน(1ปี 6เดือน)
+                                18 เดือน
                             </td>
                             <td align="center">
                                 50. วิ่งได้
@@ -968,7 +968,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                19-24 เดือน(1ปี 7เดือน - 2ปี)
+                                19-24 เดือน
                             </td>
                             <td align="center">
                                 60. เหวี่ยงขาเตะลูกบอลได้ 
@@ -1044,7 +1044,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                25-29 เดือน(2ปี 1เดือน - 2ปี 5เดือน)
+                                25-29 เดือน
                             </td>
                             <td align="center">
                                 65. กระโดดเท้าพ้นพื้นทั้ง 2 ข้าง
@@ -1120,7 +1120,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                30 เดือน(2ปี 6เดือน)
+                                30 เดือน
                             </td>
                             <td align="center">
                                 70. กระโดดข้ามเชือกบนพื้นไปข้างหน้าได้
@@ -1268,7 +1268,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                31-36 เดือ น(2ปี 7เดือน - 3ปี)
+                                31-36 เดือน
                             </td>
                             <td align="center">
                                 79. ยืนขาเดียว 1 วินาที
@@ -1344,7 +1344,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                37-41 เดือน (3ปี 1เดือน - 3ปี 5เดือน)
+                                37-41 เดือน
                             </td>
                             <td align="center">
                                 84. ยืนขาเดียว 3 วินาที
@@ -1433,7 +1433,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                42 เดือน (3ปี 6เดือน)
+                                42 เดือน
                             </td>
                             <td align="center">
                                 90. ยืนขาเดียว 5 วินาที
@@ -1607,7 +1607,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                43-48 เดือน (3ปี 7เดือน - 4ปี )
+                                43-48 เดือน
                             </td>
                             <td align="center">
                                 101. กระโดดขาเดียวได้อย่างน้อย 2 ครั้ง
@@ -1696,7 +1696,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                49-54 เดือน(4ปี 1เดือน - 4ปี 6เดือน)
+                                49-54 เดือน
                             </td>
                             <td align="center">
                                 107. กระโดดสองเท้าพร้อมกันไปด้านข้างและถอยหลังได้
@@ -1772,7 +1772,7 @@
                         </tr>
                         <tr>
                             <td align="center">
-                                55-60 เดือน(4ปี 7เดือน - 5ปี)
+                                55-59 เดือน
                             </td>
                             <td align="center">
                                 112. เดินต่อส้นเท้า
@@ -1841,6 +1841,348 @@
                                 <div class="icheck-success d-inline">
                                     <input type="radio" id="DSPM_116_2" name="DSPM_116" value="1">
                                     <label for="DSPM_116_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                60 เดือน
+                            </td>
+                            <td align="center">
+                                117. เดินต่อเท้าเป็นเส้นตรงไปข้างหน้าได้
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_117_1" name="DSPM_117" value="0">
+                                    <label for="DSPM_117_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_117_2" name="DSPM_117" value="1">
+                                    <label for="DSPM_117_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                                118. ลอกรูป
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_118_1" name="DSPM_118" value="0">
+                                    <label for="DSPM_118_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_118_2" name="DSPM_118" value="1">
+                                    <label for="DSPM_118_2">ไม่ผ่าน</label>
+
+                                </div>
+                                <br>
+                                119. วาดรูปคนได้ 6 ส่วน
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_119_1" name="DSPM_119" value="0">
+                                    <label for="DSPM_119_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_119_2" name="DSPM_119" value="1">
+                                    <label for="DSPM_119_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                                120. จับใจความเมื่อฟังนิทานหรือเรื่องเล่า
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_120_1" name="DSPM_120" value="0">
+                                    <label for="DSPM_120_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_120_2" name="DSPM_120" value="1">
+                                    <label for="DSPM_120_2">ไม่ผ่าน</label>
+
+                                </div>
+                                <br>
+                                121. นับก้อนไม้ 5 ก้อน
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_121_1" name="DSPM_121" value="0">
+                                    <label for="DSPM_121_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_121_2" name="DSPM_121" value="1">
+                                    <label for="DSPM_121_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                            </td>
+                            <td align="center">
+                                122. อ่านออกเสียงพยัญชนะได้ถูกต้อง 5 ตัว ดังนี้ “ก” “ง” “ด” “น” “ย”
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_122_1" name="DSPM_122" value="0">
+                                    <label for="DSPM_122_1">ผ่าน</label>
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_122_2" name="DSPM_122" value="1">
+                                    <label for="DSPM_122_2">ไม่ผ่าน</label>
+                                </div>
+                                <br>
+                                123. รู้จักพูดอย่างมีเหตุผล
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_123_1" name="DSPM_123" value="0">
+                                    <label for="DSPM_123_1">ผ่าน</label>
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_123_2" name="DSPM_123" value="1">
+                                    <label for="DSPM_123_2">ไม่ผ่าน</label>
+                                </div>
+                            </td>
+                            <td align="center">
+                                124. แสดงความเห็นอกเห็นใจเมื่อเห็นเพื่อนเจ็บหรือไม่สบาย
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_124_1" name="DSPM_124" value="0">
+                                    <label for="DSPM_124_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_124_2" name="DSPM_124" value="1">
+                                    <label for="DSPM_124_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td align="center">
+                            61-66 เดือน
+                            </td>
+                            <td align="center">
+                            125. กระโดดขาเดียวไปข้างหน้า 4 ครั้ง ทีละข้าง
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_125_1" name="DSPM_125" value="0">
+                                    <label for="DSPM_125_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_125_2" name="DSPM_125" value="1">
+                                    <label for="DSPM_125_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            126. ตัดกระดาษเส้นตรงต่อเนื่อง ยาว 15 ซม.
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_126_1" name="DSPM_126" value="0">
+                                    <label for="DSPM_126_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_126_2" name="DSPM_126" value="1">
+                                    <label for="DSPM_126_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            127. บวกเลขเบื้องต้นผลลัพธ์ไม่เกิน 10
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_127_1" name="DSPM_127" value="0">
+                                    <label for="DSPM_127_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_127_2" name="DSPM_127" value="1">
+                                    <label for="DSPM_127_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            128. เด็กสามารถอธิบายหน้าที่ หรือคุณสมบัติของสิ่งของได้อย่างน้อย 6 ชนิด
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_128_1" name="DSPM_128" value="0">
+                                    <label for="DSPM_128_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_128_2" name="DSPM_128" value="1">
+                                    <label for="DSPM_128_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                                129. ช่วยงานบ้าน
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_129_1" name="DSPM_129" value="0">
+                                    <label for="DSPM_129_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_129_2" name="DSPM_129" value="1">
+                                    <label for="DSPM_129_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                            67-72 เดือน
+                            </td>
+                            <td align="center">
+                            130. วิ่งหลบหลีกสิ่งกีดขวางได้
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_130_1" name="DSPM_130" value="0">
+                                    <label for="DSPM_130_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_130_2" name="DSPM_130" value="1">
+                                    <label for="DSPM_130_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            131. ลอกรูปสามเหลี่ยม
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_131_1" name="DSPM_131" value="0">
+                                    <label for="DSPM_131_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_131_2" name="DSPM_131" value="1">
+                                    <label for="DSPM_131_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            132. ลบเลข
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_132_1" name="DSPM_132" value="0">
+                                    <label for="DSPM_132_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_132_2" name="DSPM_132" value="1">
+                                    <label for="DSPM_132_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            133. เด็กสามารถบอกชื่อสิ่งของได้3 หมวด ได้แก่ สัตว์, เสื้อผ้า, อาหาร
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_133_1" name="DSPM_133" value="0">
+                                    <label for="DSPM_133_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_133_2" name="DSPM_133" value="1">
+                                    <label for="DSPM_133_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            134. เด็กแปรงฟันได้ทั่วทั้งปาก
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_134_1" name="DSPM_134" value="0">
+                                    <label for="DSPM_134_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_134_2" name="DSPM_134" value="1">
+                                    <label for="DSPM_134_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                            73-78 เดือน
+                            </td>
+                            <td align="center">
+                            135. เคลื่อนไหวร่างกายตามที่ตกลงกัน ให้คู่กับสัญญาณเสียง ที่ผู้ใหญ่ท าขึ้น 2 ชนิดต่อกัน
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_135_1" name="DSPM_135" value="0">
+                                    <label for="DSPM_135_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_135_2" name="DSPM_135" value="1">
+                                    <label for="DSPM_135_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            136. เขียนชื่อตนเองได้ถูกต้อง
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_136_1" name="DSPM_136" value="0">
+                                    <label for="DSPM_136_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_136_2" name="DSPM_136" value="1">
+                                    <label for="DSPM_136_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            137. อ่านหนังสือที่มีภาพอย่างต่อเนื่องจนจบ และเล่าได้ว่าเป็นเรื่องอะไร
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_137_1" name="DSPM_137" value="0">
+                                    <label for="DSPM_137_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_137_2" name="DSPM_137" value="1">
+                                    <label for="DSPM_137_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            138. สามารถคิดเชิงเหตุผลและอธิบายได้
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_138_1" name="DSPM_138" value="0">
+                                    <label for="DSPM_138_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_138_2" name="DSPM_138" value="1">
+                                    <label for="DSPM_138_2">ไม่ผ่าน</label>
+
+                                </div>
+                            </td>
+                            <td align="center">
+                            139. ทางานที่ได้รับมอบหมายจนสำเร็จด้วยตนเอง
+                                <br>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_139_1" name="DSPM_139" value="0">
+                                    <label for="DSPM_139_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_139_2" name="DSPM_139" value="1">
+                                    <label for="DSPM_139_2">ไม่ผ่าน</label>
 
                                 </div>
                             </td>

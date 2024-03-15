@@ -61,6 +61,14 @@ Route::get('/edit_eq15/{id}', [App\Http\Controllers\backend\Eq15Controller::clas
 Route::post('/update_eq15/{id}', [App\Http\Controllers\backend\Eq15Controller::class,'eq15UpdateCategory']);
 Route::get('/delete_eq15/{id}', [App\Http\Controllers\backend\Eq15Controller::class,'eq15DeleteCategory']);
 
+Route::get('list_eq15611', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15List'])->name('eq15_611.index');
+Route::get('/add_eq15611/{id}',[App\Http\Controllers\backend\Eq15611Controller::class,'eq15Add'])->name('eq15611add');
+Route::post('/insert_eq15611', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15Insert']);
+Route::get('/edit_eq15611/{id}', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15EditCategory']);
+Route::post('/update_eq15611/{id}', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15UpdateCategory']);
+Route::get('/delete_eq15811/{id}', [App\Http\Controllers\backend\Eq15611Controller::class,'eq15DeleteCategory']);
+
+
 Route::get('list_child', [App\Http\Controllers\backend\ChildController::class,'childList'])->name('child.index');
 Route::get('/add_child',[App\Http\Controllers\backend\ChildController::class,'childAdd'])->name('childadd');
 Route::post('/insert_child', [App\Http\Controllers\backend\ChildController::class,'childInsert']);

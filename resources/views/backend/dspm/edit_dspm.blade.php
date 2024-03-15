@@ -3881,6 +3881,803 @@
                             </td>
                             
                         </tr>
+                        <tr>
+                            <td align="center">
+                                60 เดือน
+                            </td>
+                            <td align="center">
+                                117. เดินต่อเท้าเป็นเส้นตรงไปข้างหน้าได้
+                                <br>
+                                @php 
+                                    if($edit->DSPM_117 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_117_1" name="DSPM_117" value="0">
+                                    <label for="DSPM_117_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_117_2" name="DSPM_117" checked value="1">
+                                    <label for="DSPM_117_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_117_1" name="DSPM_117" checked value="0">
+                                    <label for="DSPM_117_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_117_2" name="DSPM_117"  value="1">
+                                    <label for="DSPM_117_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                                118. ลอกรูป
+                                <br>
+                                @php 
+                                    if($edit->DSPM_118 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_118_1" name="DSPM_118" value="0">
+                                    <label for="DSPM_118_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_118_2" name="DSPM_118" checked value="1">
+                                    <label for="DSPM_118_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_118_1" name="DSPM_118" checked value="0">
+                                    <label for="DSPM_118_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_118_2" name="DSPM_118"  value="1">
+                                    <label for="DSPM_118_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                                <br>
+                                119. วาดรูปคนได้ 6 ส่วน
+                                <br>
+                                @php 
+                                    if($edit->DSPM_119 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_119_1" name="DSPM_119" value="0">
+                                    <label for="DSPM_119_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_119_2" name="DSPM_119" checked value="1">
+                                    <label for="DSPM_119_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_119_1" name="DSPM_119" checked value="0">
+                                    <label for="DSPM_119_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_119_2" name="DSPM_119"  value="1">
+                                    <label for="DSPM_119_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                                120. จับใจความเมื่อฟังนิทานหรือเรื่องเล่า
+                                <br>
+                                @php 
+                                    if($edit->DSPM_120 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_120_1" name="DSPM_120" value="0">
+                                    <label for="DSPM_120_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_120_2" name="DSPM_120" checked value="1">
+                                    <label for="DSPM_120_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_120_1" name="DSPM_120" checked value="0">
+                                    <label for="DSPM_120_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_120_2" name="DSPM_120"  value="1">
+                                    <label for="DSPM_120_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                                <br>
+                                121. นับก้อนไม้ 5 ก้อน
+                                <br>
+                                @php 
+                                    if($edit->DSPM_121 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_121_1" name="DSPM_121" value="0">
+                                    <label for="DSPM_121_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_121_2" name="DSPM_121" checked value="1">
+                                    <label for="DSPM_121_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_121_1" name="DSPM_121" checked value="0">
+                                    <label for="DSPM_121_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_121_2" name="DSPM_121"  value="1">
+                                    <label for="DSPM_121_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+
+                            </td>
+                            <td align="center">
+                                122. อ่านออกเสียงพยัญชนะได้ถูกต้อง 5 ตัว ดังนี้ “ก” “ง” “ด” “น” “ย”
+                                <br>
+                                @php 
+                                    if($edit->DSPM_122 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_122_1" name="DSPM_122" value="0">
+                                    <label for="DSPM_122_1">ผ่าน</label>
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_122_2" name="DSPM_122" checked value="1">
+                                    <label for="DSPM_122_2">ไม่ผ่าน</label>
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_122_1" name="DSPM_122" checked value="0">
+                                    <label for="DSPM_122_1">ผ่าน</label>
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_122_2" name="DSPM_122"  value="1">
+                                    <label for="DSPM_122_2">ไม่ผ่าน</label>
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                                <br>
+                                123. รู้จักพูดอย่างมีเหตุผล
+                                <br>
+                                @php 
+                                    if($edit->DSPM_123 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_123_1" name="DSPM_123" value="0">
+                                    <label for="DSPM_123_1">ผ่าน</label>
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_123_2" name="DSPM_123" checked value="1">
+                                    <label for="DSPM_123_2">ไม่ผ่าน</label>
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_123_1" name="DSPM_123" checked value="0">
+                                    <label for="DSPM_123_1">ผ่าน</label>
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_123_2" name="DSPM_123"  value="1">
+                                    <label for="DSPM_123_2">ไม่ผ่าน</label>
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                                124. แสดงความเห็นอกเห็นใจเมื่อเห็นเพื่อนเจ็บหรือไม่สบาย
+                                <br>
+                                @php 
+                                    if($edit->DSPM_124 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_124_1" name="DSPM_124" value="0">
+                                    <label for="DSPM_124_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_124_2" name="DSPM_124" checked value="1">
+                                    <label for="DSPM_124_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_124_1" name="DSPM_124" checked value="0">
+                                    <label for="DSPM_124_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_124_2" name="DSPM_124"  value="1">
+                                    <label for="DSPM_124_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td align="center">
+                            61-66 เดือน
+                            </td>
+                            <td align="center">
+                            125. กระโดดขาเดียวไปข้างหน้า 4 ครั้ง ทีละข้าง
+                                <br>
+                                @php 
+                                    if($edit->DSPM_125 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_125_1" name="DSPM_125" value="0">
+                                    <label for="DSPM_125_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_125_2" name="DSPM_125" checked value="1">
+                                    <label for="DSPM_125_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_125_1" name="DSPM_125" checked value="0">
+                                    <label for="DSPM_125_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_125_2" name="DSPM_125" value="1">
+                                    <label for="DSPM_125_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            126. ตัดกระดาษเส้นตรงต่อเนื่อง ยาว 15 ซม.
+                                <br>
+                                @php 
+                                    if($edit->DSPM_126 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_126_1" name="DSPM_126" value="0">
+                                    <label for="DSPM_126_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_126_2" name="DSPM_126" checked value="1">
+                                    <label for="DSPM_126_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_126_1" name="DSPM_126" checked value="0">
+                                    <label for="DSPM_126_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_126_2" name="DSPM_126" value="1">
+                                    <label for="DSPM_126_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            127. บวกเลขเบื้องต้นผลลัพธ์ไม่เกิน 10
+                                <br>
+                                @php 
+                                    if($edit->DSPM_127 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_127_1" name="DSPM_127" value="0">
+                                    <label for="DSPM_127_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_127_2" name="DSPM_127" checked value="1">
+                                    <label for="DSPM_127_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            128. เด็กสามารถอธิบายหน้าที่ หรือคุณสมบัติของสิ่งของได้อย่างน้อย 6 ชนิด
+                                <br>
+                                @php 
+                                    if($edit->DSPM_128 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_128_1" name="DSPM_128" value="0">
+                                    <label for="DSPM_128_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_128_2" name="DSPM_128" checked value="1">
+                                    <label for="DSPM_128_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_128_1" name="DSPM_128" checked value="0">
+                                    <label for="DSPM_128_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_128_2" name="DSPM_128" value="1">
+                                    <label for="DSPM_128_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                                129. ช่วยงานบ้าน
+                                <br>
+                                @php 
+                                    if($edit->DSPM_129 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_129_1" name="DSPM_129" value="0">
+                                    <label for="DSPM_129_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_129_2" name="DSPM_129" checked value="1">
+                                    <label for="DSPM_129_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_129_1" name="DSPM_129" checked value="0">
+                                    <label for="DSPM_129_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_129_2" name="DSPM_129" value="1">
+                                    <label for="DSPM_129_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                            67-72 เดือน
+                            </td>
+                            <td align="center">
+                            130. วิ่งหลบหลีกสิ่งกีดขวางได้
+                                <br>
+                                @php 
+                                    if($edit->DSPM_130 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_130_1" name="DSPM_130" value="0">
+                                    <label for="DSPM_130_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_130_2" name="DSPM_130" checked value="1">
+                                    <label for="DSPM_130_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_130_1" name="DSPM_130" checked value="0">
+                                    <label for="DSPM_130_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_130_2" name="DSPM_130" value="1">
+                                    <label for="DSPM_130_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            131. ลอกรูปสามเหลี่ยม
+                                <br>
+                                @php 
+                                    if($edit->DSPM_131 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_131_1" name="DSPM_131" value="0">
+                                    <label for="DSPM_131_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_131_2" name="DSPM_131" checked value="1">
+                                    <label for="DSPM_131_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_131_1" name="DSPM_131" checked value="0">
+                                    <label for="DSPM_131_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_131_2" name="DSPM_131"  value="1">
+                                    <label for="DSPM_131_2">ไม่ผ่าน</label>
+
+                                </div> 
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            132. ลบเลข
+                                <br>
+                                @php 
+                                    if($edit->DSPM_132 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_132_1" name="DSPM_132" value="0">
+                                    <label for="DSPM_132_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_132_2" name="DSPM_132" checked value="1">
+                                    <label for="DSPM_132_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_132_1" name="DSPM_132" checked value="0">
+                                    <label for="DSPM_132_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_132_2" name="DSPM_132"  value="1">
+                                    <label for="DSPM_132_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            133. เด็กสามารถบอกชื่อสิ่งของได้3 หมวด ได้แก่ สัตว์, เสื้อผ้า, อาหาร
+                                <br>
+                                @php 
+                                    if($edit->DSPM_133 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_133_1" name="DSPM_133" value="0">
+                                    <label for="DSPM_133_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_133_2" name="DSPM_133" checked value="1">
+                                    <label for="DSPM_133_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_133_1" name="DSPM_133" checked value="0">
+                                    <label for="DSPM_133_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_133_2" name="DSPM_133"  value="1">
+                                    <label for="DSPM_133_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            134. เด็กแปรงฟันได้ทั่วทั้งปาก
+                                <br>
+                                @php 
+                                    if($edit->DSPM_134 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_134_1" name="DSPM_134" value="0">
+                                    <label for="DSPM_134_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_134_2" name="DSPM_134" checked value="1">
+                                    <label for="DSPM_134_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_134_1" name="DSPM_134" checked value="0">
+                                    <label for="DSPM_134_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_134_2" name="DSPM_134"  value="1">
+                                    <label for="DSPM_134_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                            73-78 เดือน
+                            </td>
+                            <td align="center">
+                            135. เคลื่อนไหวร่างกายตามที่ตกลงกัน ให้คู่กับสัญญาณเสียง ที่ผู้ใหญ่ท าขึ้น 2 ชนิดต่อกัน
+                                <br>
+                                @php 
+                                    if($edit->DSPM_135 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_135_1" name="DSPM_135" value="0">
+                                    <label for="DSPM_135_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_135_2" name="DSPM_135" checked value="1">
+                                    <label for="DSPM_135_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_135_1" name="DSPM_135" checked value="0">
+                                    <label for="DSPM_135_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_135_2" name="DSPM_135"  value="1">
+                                    <label for="DSPM_135_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            136. เขียนชื่อตนเองได้ถูกต้อง
+                                <br>
+                                @php 
+                                    if($edit->DSPM_136 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_136_1" name="DSPM_136" value="0">
+                                    <label for="DSPM_136_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_136_2" name="DSPM_136" checked value="1">
+                                    <label for="DSPM_136_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_136_1" name="DSPM_136" checked value="0">
+                                    <label for="DSPM_136_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_136_2" name="DSPM_136"  value="1">
+                                    <label for="DSPM_136_2">ไม่ผ่าน</label>
+
+                                </div> 
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            137. อ่านหนังสือที่มีภาพอย่างต่อเนื่องจนจบ และเล่าได้ว่าเป็นเรื่องอะไร
+                                <br>
+                                @php 
+                                    if($edit->DSPM_137 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_137_1" name="DSPM_137" value="0">
+                                    <label for="DSPM_137_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_137_2" name="DSPM_137" checked value="1">
+                                    <label for="DSPM_137_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_137_1" name="DSPM_137" checked value="0">
+                                    <label for="DSPM_137_1">ผ่าน</label>
+ 
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_137_2" name="DSPM_137" value="1">
+                                    <label for="DSPM_137_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            138. สามารถคิดเชิงเหตุผลและอธิบายได้
+                                <br>
+                                @php 
+                                    if($edit->DSPM_138 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_138_1" name="DSPM_138" value="0">
+                                    <label for="DSPM_138_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_138_2" name="DSPM_138" checked value="1">
+                                    <label for="DSPM_138_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_138_1" name="DSPM_138" checked value="0">
+                                    <label for="DSPM_138_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_138_2" name="DSPM_138" value="1">
+                                    <label for="DSPM_138_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            <td align="center">
+                            139. ทางานที่ได้รับมอบหมายจนสำเร็จด้วยตนเอง
+                                <br>
+                                @php 
+                                    if($edit->DSPM_139 == '1'){
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_139_1" name="DSPM_139" value="0">
+                                    <label for="DSPM_139_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_139_2" name="DSPM_139" checked value="1">
+                                    <label for="DSPM_139_2">ไม่ผ่าน</label>
+
+                                </div>
+                                @php 
+                                    }else{
+                                @endphp 
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_139_1" name="DSPM_139" checked value="0">
+                                    <label for="DSPM_139_1">ผ่าน</label>
+
+                                </div>
+                                <div class="icheck-success d-inline">
+                                    <input type="radio" id="DSPM_139_2" name="DSPM_139" value="1">
+                                    <label for="DSPM_139_2">ไม่ผ่าน</label>
+
+                                </div>
+
+                                @php         
+                                    }
+                                @endphp
+                            </td>
+                            
+                        </tr>
                         
                        
                         

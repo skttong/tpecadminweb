@@ -30,6 +30,33 @@ public function dspmAdd($id)
     return view('backend.dspm.create_dspm',compact('all'),compact('child_id'));
 }
 
+
+public static function modelOne($amount)
+{
+    if($amount == 1){
+        $tr = 1 ;
+    }elseif($amount == 0){
+        $tr = 0 ;
+    }
+    return $tr;
+}
+
+public static function modelTwo($amount)
+{
+    if($amount == 5){
+        $tr = 5 ;
+    }elseif($amount == 4){
+        $tr = 4 ;
+    }elseif($amount == 3){
+        $tr = 3 ;
+    }elseif($amount == 2){
+        $tr = 2 ;
+    }elseif($amount == 1){
+        $tr = 1 ;
+    }
+
+    return $tr;
+}
     
 
     public function dspmInsert(Request $request)
@@ -152,6 +179,29 @@ public function dspmAdd($id)
         $data['DSPM_114'] = $request->DSPM_114; 
         $data['DSPM_115'] = $request->DSPM_115; 
         $data['DSPM_116'] = $request->DSPM_116; 
+        $data['DSPM_117'] = $request->DSPM_117;
+        $data['DSPM_118'] = $request->DSPM_118; 
+        $data['DSPM_119'] = $request->DSPM_119; 
+        $data['DSPM_120'] = $request->DSPM_120; 
+        $data['DSPM_121'] = $request->DSPM_121; 
+        $data['DSPM_122'] = $request->DSPM_122; 
+        $data['DSPM_123'] = $request->DSPM_123; 
+        $data['DSPM_124'] = $request->DSPM_124; 
+        $data['DSPM_125'] = $request->DSPM_125; 
+        $data['DSPM_126'] = $request->DSPM_126; 
+        $data['DSPM_127'] = $request->DSPM_127; 
+        $data['DSPM_128'] = $request->DSPM_128; 
+        $data['DSPM_129'] = $request->DSPM_129; 
+        $data['DSPM_130'] = $request->DSPM_130; 
+        $data['DSPM_131'] = $request->DSPM_131; 
+        $data['DSPM_132'] = $request->DSPM_132; 
+        $data['DSPM_133'] = $request->DSPM_133; 
+        $data['DSPM_134'] = $request->DSPM_134; 
+        $data['DSPM_135'] = $request->DSPM_135; 
+        $data['DSPM_136'] = $request->DSPM_136; 
+        $data['DSPM_137'] = $request->DSPM_137; 
+        $data['DSPM_138'] = $request->DSPM_138; 
+        $data['DSPM_139'] = $request->DSPM_139; 
 //$data['created_at'] = $request->r5;
 //$data['updated_at'] = $request->r6;      
 $insert = DB::table('dspm')->insert($data);
@@ -303,6 +353,29 @@ else
         $data['DSPM_114'] = $request->DSPM_114; 
         $data['DSPM_115'] = $request->DSPM_115; 
         $data['DSPM_116'] = $request->DSPM_116; 
+        $data['DSPM_117'] = $request->DSPM_117;
+        $data['DSPM_118'] = $request->DSPM_118; 
+        $data['DSPM_119'] = $request->DSPM_119; 
+        $data['DSPM_120'] = $request->DSPM_120; 
+        $data['DSPM_121'] = $request->DSPM_121; 
+        $data['DSPM_122'] = $request->DSPM_122; 
+        $data['DSPM_123'] = $request->DSPM_123; 
+        $data['DSPM_124'] = $request->DSPM_124; 
+        $data['DSPM_125'] = $request->DSPM_125; 
+        $data['DSPM_126'] = $request->DSPM_126; 
+        $data['DSPM_127'] = $request->DSPM_127; 
+        $data['DSPM_128'] = $request->DSPM_128; 
+        $data['DSPM_129'] = $request->DSPM_129; 
+        $data['DSPM_130'] = $request->DSPM_130; 
+        $data['DSPM_131'] = $request->DSPM_131; 
+        $data['DSPM_132'] = $request->DSPM_132; 
+        $data['DSPM_133'] = $request->DSPM_133; 
+        $data['DSPM_134'] = $request->DSPM_134; 
+        $data['DSPM_135'] = $request->DSPM_135; 
+        $data['DSPM_136'] = $request->DSPM_136; 
+        $data['DSPM_137'] = $request->DSPM_137; 
+        $data['DSPM_138'] = $request->DSPM_138; 
+        $data['DSPM_139'] = $request->DSPM_139; 
         $update = DB::table('dspm')->where('id', $id)->update($data);
 
         if ($update) 
