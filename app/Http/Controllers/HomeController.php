@@ -30,10 +30,10 @@ class HomeController extends Controller
 
     public function allDataList(Request $request)
     {
+        $Year = $request->Year;
         $health_zone = $request->health_zone;
         $province = $request->province;
         $district = $request->district;
-        $Year = $request->year;
 
         $SQL = 'COUNT(IF(Pre_GM = "0", 1, NULL)) AS "PreGM0",
         COUNT(IF(Pre_GM = "0", 1, NULL))*100/COUNT(*) AS "PreGM0p",
@@ -199,18 +199,22 @@ class HomeController extends Controller
         //$matchThese = ['health_zone' => '1', 'province' => 'เชียงราย', 'district' => 'เวียงแก่น', ];
         
         $matchThese = null ;
+        $matchThese2 = null ;
+        $matchThese3 = null ;
+        $matchThese4 = null ;
 
-        if($health_zone<>""){
-            $matchThese = ['health_zone' => $health_zone];
-        }
-        if($province<>""){
-            $matchThese = ['province' => $province];
-        }
-        if($district<>""){
-            $matchThese = ['district' => $district];
-        }
         if($Year<>""){
             $matchThese = ['year' => $Year];
+        }
+
+        if($health_zone<>""){
+            $matchThese2 = ['health_zone' => $health_zone];
+        }
+        if($province<>""){
+            $matchThese3 = ['province' => $province];
+        }
+        if($district<>""){
+            $matchThese4 = ['district' => $district];
         }
 
         if(is_null($matchThese)){
@@ -220,12 +224,13 @@ class HomeController extends Controller
         }else{
             $list = DB::table('alldata')
             ->select(DB::raw($SQL))->where([
-                [$matchThese],
+                [$matchThese],[$matchThese2],[$matchThese3],[$matchThese4]
             ])
             ->get();
         }
 
-          //  print_r ($list);
+
+       // print_r ($matchThese);
         return view('home',compact('list','province','health_zone','district','provincedata','districtdata'));
     }
 }
