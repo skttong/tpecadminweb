@@ -33,6 +33,7 @@ class HomeController extends Controller
         $health_zone = $request->health_zone;
         $province = $request->province;
         $district = $request->district;
+        $Year = $request->year;
 
         $SQL = 'COUNT(IF(Pre_GM = "0", 1, NULL)) AS "PreGM0",
         COUNT(IF(Pre_GM = "0", 1, NULL))*100/COUNT(*) AS "PreGM0p",
@@ -207,6 +208,9 @@ class HomeController extends Controller
         }
         if($district<>""){
             $matchThese = ['district' => $district];
+        }
+        if($Year<>""){
+            $matchThese = ['year' => $Year];
         }
 
         if(is_null($matchThese)){

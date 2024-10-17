@@ -21,6 +21,18 @@
                         <div class="card-body">
 
                         <div class="form-group">
+
+                        <label for="exampleInputEmail1">ปีงบประมาณ</label>
+                   <!-- <input type="text" name="province"  class="form-control @error('province') is-invalid @enderror"
+                    id="exampleInputEmail1" placeholder="Enter Slug Name">-->
+              
+                    <select class="form-control" id="Year" name="year">
+                        <option value="2567">2567</option>   
+                        <option value="2566">2566</option>   
+                        <option value="2565">2565</option>    
+                        <option value="2564">2564</option>                             
+                    </select>
+
                     <label for="exampleInputEmail1">เขตสุภาพที่</label>
                    <!-- <input type="text" name="province"  class="form-control @error('province') is-invalid @enderror"
                     id="exampleInputEmail1" placeholder="Enter Slug Name">-->
